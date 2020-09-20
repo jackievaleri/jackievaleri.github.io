@@ -1,0 +1,52 @@
+# section information
+section:
+  name: Projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Active
+  filter: "active"
+- name: Past
+  filter: "past"
+- name: PhD Work
+  filter: "phd"
+- name: Undergraduate
+  filter: "undergrad"
+
+# your projects
+projects:
+- name: Computational discovery and design of antibiotics
+  timeline: in progress
+  summary: Building off of previous work by Stokes et al. Thesis work in progress. https://www.cell.com/cell/pdf/S0092-8674(20)30102-1.pdf
+  tags: ["active", "phd"]
+
+- name: Machine learning for toehold switches
+  repo: "https://github.com/midas-wyss/engineered-riboregulator-ML"
+  timeline: Nature Communications, accepted 2020
+  summary: Sequence-to-function deep learning frameworks for engineered riboregulators. Co-first author. https://www.biorxiv.org/content/10.1101/870055v1
+  tags: ["active", "phd"]
+
+- name: Android app for lateral flow assay image analysis
+  repo: "https://github.com/jackievaleri/lateral_flow_quantification_app"
+  timeline: Nature Biomedical Engineering, 2020
+  summary: A CRISPR-based assay for the detection of opportunistic infections post-transplantation and for the monitoring of transplant rejection. https://doi.org/10.1038/s41551-020-0546-5.
+  tags: ["past", "phd"]
+
+- name: Blue light-induced genome folding
+  url: "https://www.nature.com/articles/s41592-019-0436-5"
+  timeline: Nature Methods, 2019
+  summary: LADL, light-activated dynamic looping for endogenous gene expression control. Highlighted in Nature’s technologies to watch in 2020.
+  tags: ["past", "undergrad"]
+
+- name: Communication interface for Deaf patients and hearing physicians
+  url: https://www.youtube.com/watch?v=3_n3bEUO4Lc&feature=youtu.be
+  timeline: Senior Design, 2018
+  summary: Created neural machine translation and video capture algorithm. Honorable mention in University of Pennsylvania School of Engineering senior design competition.
+  tags: ["past", "undergrad"]

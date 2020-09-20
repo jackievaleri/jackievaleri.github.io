@@ -1,0 +1,20 @@
+# section information
+section:
+  name: Outside the Lab
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+ # hideTitle: true
+
+# Your achievements achievements
+achievements:
+
+- title: Boston Sports
+  image: images/outside_the_lab/bruins.jpg
+- title: Baking
+  image: images/outside_the_lab/baking.jpg
+- title: MIT Pride
+  image: images/outside_the_lab/mit.jpg
+- title: Staying Active
+  image: images/outside_the_lab/bike_ride.jpg

@@ -1,0 +1,65 @@
+# section information
+section:
+  name: About
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# your designation
+designation: Biological Engineer
+# your company information
+company:
+  name: MIT
+  url: "https://be.mit.edu"
+
+# a summary about you
+summary: 'I am currently a third year PhD student in the lab of Jim Collins. In 2018, I graduated with my undergraduate and masters degree in BE from the University of Pennsylvania. Outside of lab, I am energized by opportunities to mentor as well as promote inclusive environments through my work with Title IX, MITxHarvard Women in Artificial Intelligence, and as a BE Data Lab Fellow.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "valerij@mit.edu"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/jackievaleri"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/jacqueline-valeri-a3a944ab/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/jackievalerisci"
+
+# your interests
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: ML / AI
+  percentage: 100
+  color: blue
+- name: Syn Bio
+  percentage: 100
+  color: sky
+- name: Antibiotics
+  percentage: 100
+  color: blue
+- name: App Dev.
+  percentage: 100
+  color: sky
+- name: Systems Bio
+  percentage: 100
+  color: blue
+- name: Mentoring
+  percentage: 100
+  color: sky
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"

@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Skills
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Programming 
+  summary: "Proficient in Python, R, Java, Matlab. Basic knowledge of HTML/CSS, OCaml, Linux"
+
+- name: RNA-seq Analysis
+  summary: "Bulk and single cell RNA-sequencing analysis with DESeq2 and Seurat"
+
+- name: Machine Learning
+  summary: "Pytorch, Tensorflow/Keras, and scikit-learn."
+
+- name: App Development
+  summary: "R Shiny and Android Studio"
+
+- name: Molecular Biology
+  summary: "PCR, Gibson cloning, Golden Gate Assembly, Sanger and Illumina sequencing, IHC/IF"
+
+- name: Rapid Prototyping and Electrical Engineering
+  summary: "Circuitry, Soldering, SolidWorks, 3D printing"
