@@ -5,7 +5,7 @@ I really enjoyed attending [PyCon US](https://us.pycon.org/2024/) in Pittsburgh 
 Now that I have had some time to reflect on what I learned, I wanted to share my takeaways. I attended some informative and interesting talks on GPU-accelerated dataframes and graphs as well as dataframe processing libraries, which I will highlight in Part 1. In Part 2, I do a deeper dive into Rust, a programming language which I had not heard much of before PyCon 2024 but which can make Python code faster and safer.
 
 
-## Part 1: Highlights
+## Part 1: Highlights 🔥
 #### cudf.pandas
 cuDF is a GPU DataFrame library from [RAPIDS](https://rapids.ai) designed to accelerate dataframe processing tasks by leveraging the parallel processing power of GPUs. Though cuDF started as a stand-alone package with a similar API to pandas, you can now add just two lines (below) to your pandas code to enable GPU usage by pandas functions! No other code needs to change. I tried cudf.pandas and saw a speed-up using `join`, `groupby`, and `sort_values` operations on a large dataframe from ~13 seconds to <0.5 seconds! This is a great performance booster for relatively little effort and I have already started using cudf.pandas in my code to speed up operations on pandas dataframes.
 
@@ -21,7 +21,7 @@ The cudf.pandas library supports most, but not all, pandas functions. If a funct
 [Ibis](https://ibis-project.org) is a powerful dataframe library that aims to provide a consistent API for querying data stored in various backends (e.g., SQL databases or dataframes from libraries such as pandas and polars.). I do not personally write much SQL code, but I sometimes need to query SQL-based databases like SQLite and PostgreSQL. What stood out to me was how Ibis enables you to write code that is backend-agnostic, meaning you can write your code once and run it across different platforms without modification. For example, I could test filtering and grouping code on a small pandas dataframe and then apply the same filtering and grouping procedure to a SQL database because of the ability to unbind code from the backend. I also appreciated that the Ibis API is similar to pandas, so I was able to get started quickly without a steep learning curve.
 
 
-## Part 2: Rust
+## Part 2: Rust 🦀
 One of my big takeaways from PyCon US 2024 is that Rust is fast! For those like me who were unfamiliar with Rust, Rust is a programming language designed for speed and safety. I attended a fantastic [tutorial on Rust and PyO3](https://github.com/Cheukting/py03_101) (more on that later) by Cheuk Ting Ho that really helped my understanding.
 
 #### Rust vs. Python
