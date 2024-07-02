@@ -1,0 +1,19 @@
+# some information about you
+name: "Jackie Valeri"
+nickname: "Jackie"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/JV_high_definition.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "jackievaleri8 at gmail dot com"
+  github: jackievaleri
+  linkedin: jacquelinevaleri
+
+# some summary about what you do
+summary:
+  - I am a biological engineer
+  - I am a data scientist
+  - I am a biologist
+  - I am a machine learning researcher
+  - I am a scientist

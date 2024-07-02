@@ -1,0 +1,78 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Sequence-to-Function
+  filter: "seqfunc"
+- name: Antibiotics
+  filter: "abx"
+- name: PhD
+  filter: "phd"
+- name: Undergraduate
+  filter: "undergrad"
+
+# your projects
+projects:
+- name: Discovery of antibiotics active against stationary-phase bacteria
+  timeline: Molecular Cell, 2024
+  url: "https://www.sciencedirect.com/science/article/pii/S1097276524004489?dgcid=coauthor"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Evaluate the effect of chromatin regulator combinations on gene expression in yeast.
+  tags: ["seqfunc", "phd"]
+
+- name: Discovery of antibiotics active against stationary-phase bacteria
+  # logo: /images/sections/projects/kubernetes.png
+  # role: Cell Chemical Biology 2023
+  timeline: Cell Chemical Biology, 2023
+  repo: https://github.com/jackievaleri/nontoxic_stat_phase_killing_abx # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.cell.com/cell-chemical-biology/abstract/S2451-9456(23)00387-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2451945623003872%3Fshowall%3Dtrue"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Experimental and computational screening techniques to discover and characterize small molecules active against "metabolically dormant" bacteria.
+  tags: ["abx", "phd"]
+
+- name: Explainable ML for antibiotic class discovery
+  timeline: Nature, 2023
+  url: "https://www.nature.com/articles/s41586-023-06887-8"
+  summary: Using explainable machine learning techniques to discover a structural class of antibiotics active against S. aureus.
+  tags: ["abx", "phd"]
+
+- name: Automated machine learning for biological sequences
+  timeline: Cell Systems, 2023
+  repo: https://github.com/jackievaleri/BioAutoMATED
+  url: "https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00151-5"
+  summary: Easing barriers for biologists to use machine learning to analyze, intepret, and design nucleic acid, peptide, and glycan sequences.
+  tags: ["seqfunc", "phd"]
+
+- name: Machine learning for toehold switches
+  timeline: Nature Communications, 2020
+  repo: https://github.com/midas-wyss/engineered-riboregulator-ML
+  url: "https://www.nature.com/articles/s41467-020-18676-2"
+  summary: Sequence-to-function deep learning frameworks for engineered riboregulators.
+  tags: ["seqfunc", "phd"]
+
+- name: Android app for lateral flow assay image analysis
+  timeline: Nature Biomedical Engineering, 2020
+  repo: https://github.com/jackievaleri/lateral_flow_quantification_app
+  url: "https://www.nature.com/articles/s41551-020-0546-5"
+  summary: A CRISPR-based assay for the detection of opportunistic infections post-transplantation and for the monitoring of transplant rejection.
+  tags: ["phd"]
+
+- name: Blue light-induced genome folding
+  timeline: Nature Methods, 2019
+  url: "https://www.nature.com/articles/s41592-019-0436-5"
+  summary: LADL, light-activated dynamic looping for endogenous gene expression control. Highlighted in Nature’s technologies to watch in 2020.
+  tags: ["undergrad"]
+
+- name: Communication interface for Deaf patients and hearing physicians
+  timeline: Senior Design, 2018
+  url: "https://www.youtube.com/watch?v=3_n3bEUO4Lc"
+  summary: Created neural machine translation and video capture algorithm. Honorable mention in Engineering senior design competition.
+  tags: ["undergrad"]
