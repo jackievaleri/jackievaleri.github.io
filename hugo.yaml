@@ -63,9 +63,9 @@ params:
     favicon: /images/site/icon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/jackievaleri/jackievaleri.github.io
   # Default branch of your Git repo
-  gitBranch: main
+  gitBranch: master
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
@@ -101,7 +101,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
