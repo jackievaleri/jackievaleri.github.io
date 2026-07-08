@@ -1,0 +1,16 @@
+/* override this file for custom css */
+
+/* you can import bootstrap mixins */
+// @import 'bootstrap/scss/mixins';
+
+// The hero background is a bright daytime photo (MIT dome), same as the
+// master branch. The theme's default hero text color is a light color meant
+// for dark hero photos, so it's unreadable here. Match the master branch's
+// dark hero text instead.
+.home {
+  .greeting,
+  .greeting-subtitle,
+  .typing-carousel {
+    color: #080807 !important;
+  }
+}
