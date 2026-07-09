@@ -23,7 +23,21 @@ buttons:
 
 # your projects
 projects:
-- name: Discovery of antibiotics active against stationary-phase bacteria
+- name: Deep learning–enabled discovery of antibiotics effective against Neisseria gonorrhoeae
+  timeline: Science Translational Medicine, 2026
+  repo: https://github.com/jackievaleri/ngonorrhoeae_abx_ml_discovery
+  url: "https://www.science.org/doi/10.1126/scitranslmed.ads4699"
+  summary: Using deep learning to screen antibacterials effective against Neisseria gonorrhoeae.
+  tags: ["abx", "phd"]
+
+- name: A generative deep learning approach to de novo antibiotic design
+  timeline: Cell 2025
+  repo: https://github.com/aartikrish/de-novo-antibiotics
+  url: "https://www.cell.com/cell/fulltext/S0092-8674(25)00855-4"
+  summary: Using genetic algorithms and autoencoders to generate novel antibacterials.
+  tags: ["abx", "phd"]
+
+- name: A high-throughput synthetic biology approach for studying combinatorial chromatin-based transcriptional regulation
   timeline: Molecular Cell, 2024
   url: "https://www.sciencedirect.com/science/article/pii/S1097276524004489?dgcid=coauthor"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Evaluate the effect of chromatin regulator combinations on gene expression in yeast.
