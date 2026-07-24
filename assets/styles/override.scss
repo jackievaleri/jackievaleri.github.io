@@ -1,0 +1,34 @@
+/* override this file for custom css */
+
+/* you can import bootstrap mixins */
+// @import 'bootstrap/scss/mixins';
+
+// The hero background is a bright daytime photo (MIT dome), same as the
+// master branch. The theme's default hero text color is a light color meant
+// for dark hero photos, so it's unreadable here. Match the master branch's
+// dark hero text instead.
+.home {
+  .greeting,
+  .greeting-subtitle,
+  .typing-carousel {
+    color: #080807 !important;
+  }
+
+  // In dark mode the theme fills the avatar's padding with a near-black
+  // background-color, which shows as a dark ring at the circular clip edge.
+  // Master has no dark mode to match, so just make the edge blend cleanly.
+  .content img {
+    border: none;
+    box-shadow: none;
+    background-color: transparent !important;
+  }
+}
+
+// Neither blog post has a custom `hero` image set, so every post card and
+// post page falls back to the theme's generic stock illustration
+// (default-hero.jpg). Master's posts are text-only, so hide the placeholder
+// rather than show it.
+.post-card .card-head,
+#hero-area {
+  display: none;
+}

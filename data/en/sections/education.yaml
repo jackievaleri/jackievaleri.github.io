@@ -1,0 +1,115 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ph.D in Biological Engineering
+  # icon: fa-microscope
+  timeframe: 2018 - 2023
+  institution:
+    name: MIT
+    url: "https://be.mit.edu"
+    logo: /images/sections/experiences/mit.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  grade: #(optional)
+    scale: GPA
+    achieved: 5.00
+    outOf: 5.00
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Principles of Molecular Bioengineering
+    - name: Biological Networks
+    - name: Deep Learning for Biological Life Sciences
+    - name: Methods & Problems in Microbiology
+    - name: The Hallmarks of Cancer
+  extracurricularActivities: #(optional)
+    - 2020 - 2023 BE Data Lab Fellow.
+    - 2020 - 2022 Co-President of MITxHarvard Women in Artificial Intelligence.
+    - 2018 - 2023 Student Liaison for the Institute Discriminiation and Harassment Response (IDHR) Office; Previously, Chair of Messaging and Partnerships Subcommittee of IDHR-Student Advisory Committee.
+    - 2020 - 2023 Representative for Committe on Sexual Misconduct Prevention and Response.
+    - Spring 2021 Teaching Assistant for Deep Learning in the Life Sciences.
+    - 2018 - 2023 BE Admissions Assistance Program (BEAAP) Mentor.
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+- name: M.S.E. in Biological Engineering
+  # icon: fa-graduation-cap
+  timeframe: 2016 - 2018
+  institution:
+    name: University of Pennsylvania
+    url: "https://be.seas.upenn.edu"
+    logo: /images/sections/experiences/penn.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  grade: #(optional)
+    scale: GPA
+    achieved: 4.00
+    outOf: 4.00
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Molecular Basis of Disease
+    - name: Multiscale Modeling of Biological Systems
+    - name: Epigenomics
+    - name: Ethical Aspects of Health & Technology
+    - name: Intro to Computational Biology & Biological Modeling
+    - name: Intro to Bioinformatics
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  extracurricularActivities: #(optional)
+    - Honorable Mention for Penn Engineering Master’s Academic Award Spring 2018.
+  # custonSections: #(optional)
+  #   - name: Thesis
+  #     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   - name: Supervisor
+  #     content: Fusce eu augue ut odio porttitor pulvinar.
+- name: B.S.E. in Biological Engineering
+  # icon: fa-university
+  timeframe: 2014 - 2018
+  institution:
+    name: University of Pennsylvania
+    url: "https://be.seas.upenn.edu"
+    logo: /images/sections/experiences/penn.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/science_college.png
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.99
+    outOf: 4.00
+  takenCourses: #(optional)
+  # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Engineering Principles of Human Physiology
+    - name: Molecular Physiology & Cellular Engineering
+    - name: Advanced Physical Chemistry of Bioengineering
+    - name: Molecular Biology & Genetics
+    - name: Biomedical Ethics
+    - name: Computer Science Minor
+  extracurricularActivities: #(optional)
+    - Penn Band Clarinet Section Leader.
+    - Tau Beta Pi Engineering Honor Society Secretary.
+    - Co-Director of Penn Innoworks Science Camp.
+    - Co-recipient of 2018 Wolf-Hallac Award for top female senior in Penn Engineering School.
+    - Selected for Penn 10 2018, the “30 Under 30” equivalent for 10 graduating seniors.
