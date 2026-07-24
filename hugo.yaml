@@ -1,6 +1,6 @@
 baseURL: https://jackievaleri.github.io
 
-languageCode: en
+locale: en
 title: "Jackie Valeri"
 
 # Use Hugo modules to add theme
@@ -10,7 +10,7 @@ module:
   mounts:
   - source: static/files
     target: static/files
-  - source: ./node_modules/flag-icon-css/flags
+  - source: ./node_modules/flag-icons/flags
     target: static/flags
   - source: ./node_modules/@fontsource/mulish/files
     target: static/files
@@ -21,8 +21,8 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageCode: en
-    languageName: English
+    locale: en
+    label: English
     title: "Jackie Valeri"
     weight: 1
 # default language for the content
@@ -57,9 +57,9 @@ params:
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
+  # main/inverted are left unset so the navbar shows text only, matching the
+  # master branch's original text-only navbar.
   logo:
-    main: /images/site/icon.png
-    inverted: /images/site/icon.png
     favicon: /images/site/icon.png
 
   # GitHub repo of your site
