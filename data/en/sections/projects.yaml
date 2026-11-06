@@ -26,6 +26,7 @@ projects:
 - name: Negative data in machine learning
   timeline: SciPy 2026
   repo: https://github.com/jackievaleri/negative_ml
+  url: "https://pretalx.com/scipy-2026/talk/VLD7LX/"
   summary: Investigating how much majority-class data models need and which negative examples best preserve performance, across molecular screening, baseball, and sandwich ratings. [SciPy 2026 talk](https://www.youtube.com/watch?v=i9le8tKaAqY).
   tags: ["abx"]
 
