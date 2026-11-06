@@ -32,3 +32,19 @@
 #hero-area {
   display: none;
 }
+
+.experiences-section .timeline .vertical-line {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+  }
+}
+
+.experiences-section .timeline .row .vertical-line:nth-child(even)::after {
+  left: 50%;
+}

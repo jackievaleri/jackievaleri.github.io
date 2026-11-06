@@ -20,7 +20,7 @@ experiences:
     # company overview
     # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: Data Scientist
+  - designation: Senior Data Scientist
     start: August 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
