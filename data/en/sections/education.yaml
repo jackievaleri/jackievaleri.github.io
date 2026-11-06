@@ -21,8 +21,8 @@ degrees:
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: GPA
-    achieved: 5.00
-    outOf: 5.00
+    achieved: "5.00"
+    outOf: "5.00"
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
@@ -58,8 +58,8 @@ degrees:
     # darkLogo: /images/sections/education/university.jpg
   grade: #(optional)
     scale: GPA
-    achieved: 4.00
-    outOf: 4.00
+    achieved: "4.00"
+    outOf: "4.00"
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
@@ -94,8 +94,8 @@ degrees:
     # darkLogo: /images/sections/education/science_college.png
   grade: #(optional)
     scale: GPA
-    achieved: 3.99
-    outOf: 4.00
+    achieved: "3.99"
+    outOf: "4.00"
   takenCourses: #(optional)
   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false

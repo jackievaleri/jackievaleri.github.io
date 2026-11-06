@@ -29,11 +29,11 @@ languages:
 defaultContentLanguage: en
 
 
-# Allow raw html in markdown file
+# Keep authored content in Markdown and render structure through templates.
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: false
   tableOfContents:
     startLevel: 2
     endLevel: 6
