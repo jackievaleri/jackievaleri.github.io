@@ -15,19 +15,23 @@ skills:
 
 - name: Machine Learning
   logo: /images/sections/skills/pytorch.png
-  summary: "Pytorch, Tensorflow/Keras, and scikit-learn."
+  summary: "Pytorch, scikit-learn, Tensorflow/Keras, and Chemprop."
 
 - name: Python Data Science Stack
   logo: /images/sections/skills/numpy.png
-  summary: "pandas, numpy, scipy, matplotlib, seaborn. Cheminformatics with RDKit."
+  summary: "pandas, NumPy, SciPy, matplotlib, and seaborn."
+
+- name: Cheminformatics and Molecular Design
+  logo: /images/sections/skills/rdkit-logo.png
+  summary: "Structure-activity relationship (SAR) analysis and molecular manipulation with RDKit."
 
 - name: Cloud Computing
   logo: /images/sections/skills/gcp.png
-  summary: "Google Cloud Platform and AWS."
+  summary: "Cloud computing on Google Cloud Platform (GCP) and Amazon Web Services (AWS)."
 
 - name: Software Management
   logo: /images/sections/skills/git.png
-  summary: "Git Flow and Docker."
+  summary: "Git, Docker, Python packaging, and CI/CD."
 
 - name: RNA-seq Analysis
   logo: /images/sections/skills/seurat.png
@@ -37,10 +41,6 @@ skills:
   logo: /images/sections/skills/addgene.jpg
   summary: "PCR, Gibson cloning, Golden Gate Assembly, Sanger and Illumina sequencing, IHC/IF."
 
-- name: App Development
-  logo: /images/sections/skills/shiny.jpeg
-  summary: "R Shiny and Android Studio."
-
 - name: Rapid Prototyping
   logo: /images/sections/skills/cad.png
-  summary: "Circuitry, Soldering, SolidWorks, 3D printing"
+  summary: "Circuitry, Soldering, SolidWorks, 3D printing."
