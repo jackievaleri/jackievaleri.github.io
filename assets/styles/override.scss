@@ -44,3 +44,7 @@
     transform: translateX(-50%);
   }
 }
+
+.experiences-section .timeline .row .vertical-line:nth-child(even)::after {
+  left: 50%;
+}
