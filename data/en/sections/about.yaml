@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Scientist
+designation: Senior Data Scientist
 # your company information
 company:
   name: Moderna
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: ' I am currently a Data Scientist at Moderna in the Data Science and Artificial Intelligence team. I recently received my PhD in Biological Engineering from the lab of Jim Collins at MIT. In 2018, I graduated with my undergraduate and masters degree in BE from the University of Pennsylvania. I am energized by opportunities to mentor, promote inclusive environments, and do science outreach.'
+summary: ' I am currently a Senior Data Scientist at Moderna in the Data Science and Artificial Intelligence team. I recently received my PhD in Biological Engineering from the lab of Jim Collins at MIT. In 2018, I graduated with my undergraduate and masters degree in BE from the University of Pennsylvania. I am energized by opportunities to mentor, promote inclusive environments, and do science outreach.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
