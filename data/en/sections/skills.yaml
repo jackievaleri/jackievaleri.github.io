@@ -1,0 +1,46 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+- name: Programming
+  logo: /images/sections/skills/python.jpg
+  summary: "Proficient in Python, R, Java, Matlab. Basic knowledge of HTML/CSS, Rust, Linux."
+
+- name: Machine Learning
+  logo: /images/sections/skills/pytorch.png
+  summary: "Pytorch, Tensorflow/Keras, and scikit-learn."
+
+- name: Python Data Science Stack
+  logo: /images/sections/skills/numpy.png
+  summary: "pandas, numpy, scipy, matplotlib, seaborn. Cheminformatics with RDKit."
+
+- name: Cloud Computing
+  logo: /images/sections/skills/gcp.png
+  summary: "Google Cloud Platform and AWS."
+
+- name: Software Management
+  logo: /images/sections/skills/git.png
+  summary: "Git Flow and Docker."
+
+- name: RNA-seq Analysis
+  logo: /images/sections/skills/seurat.png
+  summary: "Bulk and single cell RNA-sequencing analysis with DESeq2 and Seurat."
+
+- name: Molecular Biology
+  logo: /images/sections/skills/addgene.jpg
+  summary: "PCR, Gibson cloning, Golden Gate Assembly, Sanger and Illumina sequencing, IHC/IF."
+
+- name: App Development
+  logo: /images/sections/skills/shiny.jpeg
+  summary: "R Shiny and Android Studio."
+
+- name: Rapid Prototyping
+  logo: /images/sections/skills/cad.png
+  summary: "Circuitry, Soldering, SolidWorks, 3D printing"

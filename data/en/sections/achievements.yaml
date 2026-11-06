@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Outside of Work
+  id: achievements
+  enable: true
+  weight: 10
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Skiing
+  image: /images/sections/achievements/skiing.jpeg
+  summary: Big Sky, Montana ski trip.
+- title: Baking
+  image: /images/sections/achievements/baking.jpg
+  summary: Annual Christmas cookie bake-a-thon.
+- title: Hiking and Climbing
+  image: /images/sections/achievements/outdoors.jpg
+  summary: Trip to Joshua Tree National Park!
+- title: Hanging with Friends
+  image: /images/sections/achievements/cohort.jpg
+  summary: Movie poster for PhD defense with BE 2018.
