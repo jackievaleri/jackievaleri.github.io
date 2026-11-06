@@ -1,0 +1,21 @@
+{{ $sectionID := .section.id | default (replace (lower .section.name) " " "-") }}
+
+<div class="container-fluid anchor pb-5 service-section" id="{{ $sectionID }}">
+  {{ if not .section.hideTitle }}
+    <h1 class="text-center">{{ .section.name }}</h1>
+  {{ end }}
+  <div class="container">
+    <ul class="list-unstyled mx-auto" style="max-width: 52rem">
+      {{ range .services }}
+        <li class="mb-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-baseline gap-1">
+            <h5 class="mb-1">{{ .organization }}</h5>
+            {{ with .period }}<span class="text-muted">{{ . }}</span>{{ end }}
+          </div>
+          <p class="mb-1"><strong>{{ .role }}</strong></p>
+          {{ with .summary }}<p class="mb-0">{{ . | markdownify }}</p>{{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

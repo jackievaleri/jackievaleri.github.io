@@ -26,9 +26,14 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Working on making science faster, easier, and more rigorous for a diverse range of biological questions. The ultimate goal is to get medicines to patients faster.
-    - Involved in protein engineering campaigns to optimize protein function in novel sequence space.
-    - Using machine learning models and algorithms to predict and design molecules involved in lipid nanoparticles.
+    - |
+      Designed small molecule libraries for synthesis and testing by experimental collaborators, including:
+
+      - Novel ionizable lipids designed via a custom genetic algorithm to improve in vitro properties of interest.
+      - Small molecules predicted to improve vaccine shelf-life/stability, leading to discovery of a novel chemical series of stabilizers.
+    - Designed protein libraries in a low-data regime using custom-built tools and publicly available data.
+    - Build and maintain internal tools, such as a dimensionality reduction visualization package and protein structure prediction models. Productionize open-source tooling, including licensed tools for pKa calculation and NMR spectra simulation.
+    - Lead quarterly doc-a-thons and build tools to automate documentation publishing from GitHub repositories.
 
 - company:
     name: Lab of Jim Collins 

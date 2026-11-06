@@ -12,6 +12,8 @@ section:
 buttons:
 - name: All
   filter: "all"
+- name: Recent
+  filter: "recent"
 - name: Sequence-to-Function
   filter: "seqfunc"
 - name: Antibiotics
@@ -28,7 +30,12 @@ projects:
   repo: https://github.com/jackievaleri/negative_ml
   url: "https://pretalx.com/scipy-2026/talk/VLD7LX/"
   summary: Investigating how much majority-class data models need and which negative examples best preserve performance, across molecular screening, baseball, and sandwich ratings. [SciPy 2026 talk](https://www.youtube.com/watch?v=i9le8tKaAqY).
-  tags: ["abx"]
+  tags: ["abx", "recent"]
+
+- name: Machine learning for virtual screening of RNA-stabilizing excipients
+  timeline: Machine Learning in Drug Discovery at Broad Institute, 2025
+  summary: Poster presentation on machine learning for virtual screening of RNA-stabilizing excipients.
+  tags: ["recent"]
 
 - name: Deep learning–enabled discovery of antibiotics effective against Neisseria gonorrhoeae
   timeline: Science Translational Medicine, 2026
