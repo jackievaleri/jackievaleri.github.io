@@ -2,7 +2,7 @@ section:
   name: Service and Leadership
   id: service
   enable: true
-  weight: 4.5
+  weight: 9
   showOnNavbar: true
 
 services:
@@ -11,13 +11,15 @@ services:
   period: 2018–present
   summary: Science outreach for over 30 classrooms, with approximately five sessions per year.
 
-- organization: Broad Institute Machine Learning in Drug Discovery
-  role: Co-organizer; Chair, Poster/Abstract Subcommittee
-  period: 2026–present
+- organization: PyData Boston
+  role: Liaison and organizer
+  period: 2025–present
+  summary: Monthly meetups held at Moderna headquarters.
 
 - organization: SciPy 2026
   role: Co-chair, Biological and Medical Track
+  period: 2026–present
 
-- organization: PyData Boston
-  role: Liaison and organizer
-  summary: Monthly meetups held at Moderna headquarters.
+- organization: Broad Institute Machine Learning in Drug Discovery
+  role: Co-organizer; Chair, Poster/Abstract Subcommittee
+  period: 2026–present
